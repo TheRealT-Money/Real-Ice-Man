@@ -5,4 +5,17 @@
 
 // Students:  Add code to this file, Actor.cpp, StudentWorld.h, and StudentWorld.cpp
 
+class Ice : public GraphObject
+{
+public:
+
+	Ice(int startX, int startY);
+};
+
+class Iceman :public GraphObject
+{
+public:
+	Iceman();
+};
+
 #endif // ACTOR_H_
